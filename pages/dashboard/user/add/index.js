@@ -22,7 +22,7 @@ export default function Component({ posts }) {
 
     console.log("jsonData: ", jsonData)
 
-      fetch(`https://frontend-gray-beta.vercel.app/api/user`, {
+      fetch(`https://verceled.vercel.app/api/user`, {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
